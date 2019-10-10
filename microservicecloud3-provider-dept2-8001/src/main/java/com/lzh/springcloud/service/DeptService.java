@@ -12,4 +12,6 @@ public interface DeptService {
 
 	public List<Dept> list();
 
+	public void delete(Long id);
+
 }

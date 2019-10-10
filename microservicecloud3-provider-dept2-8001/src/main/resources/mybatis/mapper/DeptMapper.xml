@@ -13,6 +13,9 @@
 	<insert id="addDept" parameterType="Dept">
 		INSERT INTO dept(dname,db_source) VALUES(#{dname},DATABASE());
 	</insert>
+	<delete id="deleteById" parameterType="Long">
+	    delete from dept where deptno=#{deptno};
+	</delete>
 
 </mapper>
  

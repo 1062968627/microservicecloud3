@@ -11,7 +11,7 @@ import com.lzh.springcloud.service.DeptService;
 
 @Service
 public class DeptServiceImpl implements DeptService {
-	
+
 	@Autowired
 	private DeptDao dao;
 
@@ -28,6 +28,11 @@ public class DeptServiceImpl implements DeptService {
 	@Override
 	public List<Dept> list() {
 		return dao.findAll();
+	}
+
+	@Override
+	public void delete(Long id) {
+		dao.deleteById(id);
 	}
 
 }

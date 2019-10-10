@@ -37,3 +37,12 @@ info:
   company.name: www.lzh.com
   build.artifactId: microservicecloud3-provider-dept2-8001
   build.version: 0.0.1-SNAPSHOT
+  
+#logging:
+#  pattern:
+#    console: "%d - %msg%n"
+#  #path: D:\app              #配置日志的输出路径
+#  file: D:\app\test.log
+  
+  
+  

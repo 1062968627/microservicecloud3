@@ -37,3 +37,12 @@ info:
   company.name: www.lzh.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
+  
+#logging:
+#  pattern:
+#    console: "%d - %msg%n"
+#  #path: D:\app              #配置日志的输出路径
+#  file: D:\app\test.log
+  
+  
+  
